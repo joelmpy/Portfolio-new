@@ -305,7 +305,7 @@ main {
 @media screen and (max-width: 767px) {
 
     #about {
-        height: 90vh;
+        height: 100vh;
     }
     #about .about-content{
         margin-top: 20px;
@@ -358,6 +358,10 @@ main {
 #about .about-button button:hover {
     background: var(--themeColor);
     transition: border 0.3s ease-in;
+}
+
+@media screen and (max-width : 500px) {
+    
 }
 
 /* Skill */

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/8e1c62a1dd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <div class="profile">
+      <img src="./assets/my-profile.jpg" alt="" width="150px" />
+      <h1>Mampouya Joël</h1>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#a" id="moon"><i class="fa-solid fa-moon"></i></a>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="#home" class="active"><i class="fa-solid fa-house"></i>Home</a>
+        </li>
+        <li>
+          <a href="#about"><i class="fa-solid fa-user"></i>About Me</a>
+        </li>
+        <li>
+          <a href="#competance"><i class="fa-solid fa-briefcase"></i>Skills</a>
+        </li>
+        <li>
+          <a href="#portfolio"><i class="fa-solid fa-briefcase"></i>Portfolio</a>
+        </li>
+        <li>
+          <a href="#Contact"><i class="fa-solid fa-envelope"></i>Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="footer">
+      <p>&copy; Copyright 2023</p>
+    </div>
+  </header>
+  <i class="fa-solid fa-bars" id="MenuBtn"></i>
+
+  <!-------- Header END ----------->
+
+  <!-- ALL BODY CONTENT -->
+
+  <main>
+    <!-- Home section Start -->
+
+    <section id="home">
+      <div class="home-row">
+        <h1>Mampouya Joël</h1>
+        <p class="paragraph">Développeur web></p>
+      </div>
+    </section>
+
+    <!-- Home section END -->
+
+    <!-- About section -->
+    <section id="about"> 
+      <div class="about-content">
+        <div class="about-img">
+          <img src="./assets/my-profile.jpg" alt="profile" />
+        </div>
+
+        <div class="about-info">
+          <h3>A propos de moi</h3>
+          <p>
+            Anciennement dans le métier de la métallerie pendant 5 ans, j'ai décider de faire une
+            reconversion professionnelle.
+            Je viens de finir ma formation intensive de 6 mois et j'ai obtenu le diplôme de Développeur web
+            et web mobile Full-stack.
+            Aujourd'hui je recherche une alternance autant que Développeur web Full-Stack dans le cadre
+            de ma formation de TITRE RNCP NIVEAU VI DEVELOPPEUR WEB
+            FULL STACK avev CLOUD-CAMPUS <a href="HTTPS://CLOUD-CAMPUS.FR/">Lien de l'ecole</a> 
+            
+          </p>
+          <div class="about-button">
+            <button class="button--voirPlus" onclick="handleClickShowMore()">CV Html-CSS</button>
+            <a href="./assets/Mampouya_Joel_Alternance-1.pdf" download="cv Joël"> <button>TELECHARGER CV</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section END -->
+    <section id="competance">
+      <h3 class="skill-title">Mes technos préférées</h3>
+
+      <div class="bloc-skill">
+        <div class="skill-card">
+          <div class="skill-img">
+            <img src="./image/html.webp" alt="html" />
+          </div>
+          <div class="skill-text">
+            <h4>Html</h4>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-img">
+            <img src="./image/css.webp" alt="" />
+          </div>
+          <div class="skill-text">
+            <h4>CSS3</h4>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-img">
+            <img src="./image/javascriptsvg.png" alt="" />
+          </div>
+          <div class="skill-text">
+            <h4>JavaScript</h4>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-img">
+            <img src="./image/logo-bootstrap.svg" alt="" />
+          </div>
+          <div class="skill-text">
+            <h4>Bootstrap</h4>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-img">
+            <img src="./image/react.webp" alt="" />
+          </div>
+          <div class="skill-text">
+            <h4>React JS</h4>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-img">
+            <img src="./image/gitlab.webp" alt="" />
+          </div>
+          <div class="skill-text">
+            <h4>Git</h4>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-img">
+            <img src="./image/github.webp" alt="" />
+          </div>
+          <div class="skill-text">
+            <h4>Github</h4>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-img">
+            <img src="./image/Mongodb.png" alt="" />
+          </div>
+          <div class="skill-text">
+            <h4>MongoDB</h4>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-img">
+            <img src="./image/Node.png" alt="" />
+          </div>
+          <div class="skill-text">
+            <h4>Node</h4>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-img">
+            <img src="./image/logo-express (1).svg" alt="" />
+          </div>
+          <div class="skill-text">
+            <h4>Express</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h3 class="portfolio-title">Mes Projets</h3>
+      <div class="container-projet">
+        <div class="box">
+          <div class="imgbox">
+            <img src="./image/Cuisine-projet.png" alt="" />
+          </div>
+          <div class="card-skill">
+            <div class="btn-projet">
+              <a href="https://joelmpy.github.io/Site-Cuisine/" target="_blank">Page Web</a>
+              <a href="https://github.com/joelmpy/Site-Cuisine" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="projet-img">
+              <img src="./image/html.webp" alt="" />
+              <img src="./image/css.webp" alt="" />
+              <img src="./image/logo-bootstrap.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+
+        <div class="box">
+          <div class="imgbox">
+            <img src="./image/Calories-calucl-projet.png" alt="" />
+          </div>
+          <div class="card-skill">
+            <div class="btn-projet">
+              <a href="https://projet-calculateur-calorie.vercel.app/" target="_blank">Page Web</a>
+              <a href="https://github.com/joelmpy/Projet-Calculateur-calorie" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            <div class="projet-img">
+              <img src="./image/react.webp" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="imgbox">
+            <img src="./image/Countries-projet.png" alt="" />
+          </div>
+          <div class="card-skill">
+            <div class="btn-projet">
+              <a href="https://projet-country.vercel.app/" target="_blank">Page Web</a>
+              <a href="https://github.com/joelmpy/Projet-Country" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="projet-img">
+              <img src="./image/react.webp" alt="" />
+            </div>
+          </div>
+        </div>
+
+
+        <div class="box">
+          <div class="imgbox">
+            <img src="./image/deezer-projet.png" alt="" />
+          </div>
+          <div class="card-skill">
+            <div class="btn-projet">
+              <a href="https://deezer-puce.vercel.app/" target="_blank">Page Web</a>
+              <a href="https://github.com/joelmpy/Deezer" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="projet-img">
+              <img src="./image/html.webp" alt="" />
+              <img src="./image/css.webp" alt="" />
+              <img src="./image/javascriptsvg.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+
+        <div class="box">
+          <div class="imgbox">
+            <img src="./image/comics-projet.png" alt="" />
+          </div>
+          <div class="card-skill">
+            <div class="btn-projet">
+              <a href="https://dc-comics-front.vercel.app/" target="_blank">Page Web</a>
+              <a href="https://github.com/joelmpy/DC-Comics-Back" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="projet-img-node">
+              <img src="./image/react.webp" alt="" />
+              <img src="./image/Node.png" alt="" />
+              <img src="./image/Mongodb.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <footer class="section-contact" id="Contact">
+      <h2 class="title-contact">Contact</h2>
+    <div class="content formation-content">
+      <div class="formation-card">
+        <div class="mail">
+          <a href="https://www.linkedin.com/in/mampouya-joel/" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+          <h4>Linkedin</h4>
+        </div>
+      </div>
+
+      <div class="formation-card">
+        <div class="mail">
+          <a href="mailto:mampouyajooel@gmail.com"><i class="fa-solid fa-envelope icon"></i></a>
+          <h4>mampouyajooel@gmail.com</h4>
+        </div>
+      </div>
+
+      <div class="formation-card">
+        <div class="mail">
+          <a href="https://github.com/joelmpy" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+          <h4>Github</h4>
+        </div>
+      </div>
+
+    </div>
+    </footer>
+
+
+
+  </main>
+
+  <!------------ Javascript librairie texte ----------------->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!------------ lien Javascript  ----------------->
+  <script src="main.js"></script>
+</body>
+
+</html>

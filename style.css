@@ -435,7 +435,11 @@ main {
     font-weight: 500;
 }
 
-@media screen and (max-width :40rem) {
+@media screen and (max-width :30rem) {
+    .skill-img {
+        height: auto;
+        margin-top: 5px;
+    }
     .skill-img img {
         max-width: 50px;
         max-height: 80px;
